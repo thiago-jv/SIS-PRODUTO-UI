@@ -57,7 +57,7 @@ Rotas [Sobre](https://v5.angular.io/tutorial/toh-pt5)
 
 Animations [Sobre](https://v5.angular.io/guide/animations)
 
-Template-driven [Sobre](forms https://v5.angular.io/guide/forms)
+Template-driven forms [Sobre](https://v5.angular.io/guide/forms)
 
 Primise [Sobre](https://dev.to/kurybr/promise-ou-observable-misterios-do-javascript-4f70)
 
