@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="ui-g">
+  
+    <div class="ui-g-12">
+      <h1>Categorias</h1>
+    </div>
+  
+    <div class="ui-g">
+      <div class="ui-g-12">
+        <p-table [value]="categorias" [paginator]="true" [lazy]="true" 
+        [rows]="10" [responsive]="true" emptyMessage="Nenhum registro encontrado" #tabela>
+          <ng-template pTemplate="header">
+              <tr>
+                  <th>ID</th>
+                  <th>Descricao</th>
+                  <th>Ações</th>
+              </tr>
+          </ng-template>
+          <ng-template pTemplate="body" let-cat>
+              <tr>
+                  <td>{{cat.id}}</td>
+                  <td>{{cat.descricao}}</td>
+                  <td class="col-acoes">
+                    <a pButton icon="fa fa-pencil" 
+                       pTooltip="Editar"
+                       tooltipPosition="top"
+                       [routerLink]="['/categorias', cat.id]">
+                    </a>
+      
+                    <button pButton icon="fa fa-trash"
+                            pTooltip="Excluir" 
+                            tooltipPosition="top" (click)="excluir(cat)">
+                    </button>
+                  </td>
+              </tr>
+          </ng-template>
+      </p-table>
+      </div>
+    </div>
+  
+  </div>
+  </div>

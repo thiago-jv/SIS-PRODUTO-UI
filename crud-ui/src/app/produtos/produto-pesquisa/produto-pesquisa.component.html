@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="ui-g">
+  
+    <div class="ui-g-12">
+      <h1>Produtos</h1>
+    </div>
+  
+    <div class="ui-g">
+      <div class="ui-g-12">
+        <p-table [value]="produtos" [paginator]="true" [lazy]="true" 
+        [rows]="10" [responsive]="true" emptyMessage="Nenhum registro encontrado" #tabela>
+          <ng-template pTemplate="header">
+              <tr>
+                  <th>ID</th>
+                  <th>Descricao</th>
+                  <th>categoria</th>
+                  <th>Ações</th>
+              </tr>
+          </ng-template>
+          <ng-template pTemplate="body" let-prod>
+              <tr>
+                  <td>{{prod.id}}</td>
+                  <td>{{prod.descricao}}</td>
+                  <td>{{prod.categoria.id}}</td>
+                  <td class="col-acoes">
+                    <a pButton icon="fa fa-pencil" 
+                       pTooltip="Editar"
+                       tooltipPosition="top" [routerLink]="['/produtos', prod.id]">
+                    </a>
+      
+                    <button pButton icon="fa fa-trash"
+                            pTooltip="Excluir" 
+                            tooltipPosition="top" (click)="excluir(prod)">
+                    </button>
+                  </td>
+              </tr>
+          </ng-template>
+      </p-table>
+      </div>
+    </div>
+  
+  </div>
+  </div>

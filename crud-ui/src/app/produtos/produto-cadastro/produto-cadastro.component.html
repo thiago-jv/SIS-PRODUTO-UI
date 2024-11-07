@@ -1,0 +1,57 @@
+<div class="container">
+  <form #f="ngForm" autocomplete="off" (ngSubmit)="salvar(f)">
+ 
+    <div class="ui-g">
+      <div class="ui-g-12">
+        <h1>{{ editando ? 'Edição de' : 'Novo' }} Produto </h1>
+      </div>
+    </div>
+
+    <div class="ui-g">
+      <div class="ui-g-12" style="margin-top: 10px;">
+
+        <p-toolbar>
+          <div class="ui-toolbar-group-left">
+            <button pButton type="submit" label="Salvar" [disabled]="f.invalid"></button>
+            <button pButton type="button" label="Novo" class="ui-button-info" (click)="novo(f)"></button>
+          </div>
+
+          <div class="ui-toolbar-group-right">
+            <a pButton label="Pesquisar" routerLink="/produtos"></a>
+          </div>
+        </p-toolbar>
+      </div>
+    </div>
+
+   <div class="ui-g">
+     <div class="ui-g-12 ui-md-6 ui-fluid">
+       <label>Descricao</label>
+       <input pInputText type="text" name="descricao"
+              name="descricao" required maxlength="30" minlength="5" 
+              [(ngModel)]="produto.descricao"  #descricao="ngModel">
+
+              <div *ngIf="descricao.hasError('required') && descricao.dirty"
+               class="ui-message ui-messages-error">
+                Informe uma descrição
+              </div>
+
+              <div *ngIf="descricao.hasError('minlength') && descricao.dirty"
+               class="ui-message ui-messages-error">
+                Menos de 5 caracteres
+              </div>
+
+     </div>
+
+     <div class="ui-g-12 ui-md-6 ui-fluid">
+      <label>Categorias</label>
+      <p-dropdown [options]="categorias" required name="categoria"
+                    placeholder="Selecione" [autoWidth]="false"
+                    [(ngModel)]="produto.categoria.id">
+      </p-dropdown>
+
+    </div>
+ 
+   </div>
+ 
+  </form>
+ </div>
