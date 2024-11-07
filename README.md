@@ -59,7 +59,7 @@ Animations [Sobre](https://v5.angular.io/guide/animations)
 
 Template-driven forms [Sobre](https://v5.angular.io/guide/forms)
 
-Primise [Sobre](https://dev.to/kurybr/promise-ou-observable-misterios-do-javascript-4f70)
+Promise [Sobre](https://dev.to/kurybr/promise-ou-observable-misterios-do-javascript-4f70)
 
 SPA [Sobre](https://blog.schoolofnet.com/o-que-e-uma-spa-single-page-application/)
 
