@@ -31,12 +31,12 @@ ng serve
 
 # Stack utilizada e mais
 
-```
-Angula 5 https://v5.angular.io/docs 
-Primeng 7 https://www.primefaces.org/primeng-v7-lts/#/
-Fontawesome https://fontawesome.com/
-Toasty https://www.npmjs.com/package/ng2-toasty
-Node 8 https://nodejs.org/en/download/package-manager
+
+Angula 5 [Sobre](https://v5.angular.io/docs) 
+Primeng 7 [Sobre]([https://v5.angular.io/docs](https://www.primefaces.org/primeng-v7-lts/#/)
+Fontawesome [Sobre](https://fontawesome.com/)
+Toasty [Sobre](https://www.npmjs.com/package/ng2-toasty)
+Node 8 [Sobre](https://nodejs.org/en/download/package-manager)
 
 Componentes [Sobre](https://v5.angular.io/guide/component-interaction)
 Feature modules [Sobre](https://v5.angular.io/guide/feature-modules)
@@ -49,7 +49,7 @@ Animations [Sobre](https://v5.angular.io/guide/animations)
 Template-driven [Sobre](forms https://v5.angular.io/guide/forms)
 Primise [Sobre](https://dev.to/kurybr/promise-ou-observable-misterios-do-javascript-4f70)
 SPA [Sobre](https://blog.schoolofnet.com/o-que-e-uma-spa-single-page-application/)
-```
+
 # APP
 
 ![FRONT-END](https://github.com/thiago-jv/SIS-PRODUTO-UI/blob/main/create-update-product.png)
