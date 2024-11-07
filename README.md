@@ -33,7 +33,7 @@ ng serve
 
 Angula 5 [Sobre](https://v5.angular.io/docs) 
 
-Primeng 7 [Sobre]([https://v5.angular.io/docs](https://www.primefaces.org/primeng-v7-lts/#/)
+Primeng 7 [Sobre](https://www.primefaces.org/primeng-v7-lts/#/)
 
 Fontawesome [Sobre](https://fontawesome.com/)
 
