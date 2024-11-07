@@ -1,4 +1,4 @@
-# SIS-PRODUTO-UI - Projeto para controle de cadastro de categorias e profutos com ANGULAR para ser utilizado com o banckend https://github.com/thiago-jv/SIS-PRODUTO
+# SIS-PRODUTO-UI - Projeto para controle de cadastro de categorias e produtos com ANGULAR para ser utilizado com o banckend https://github.com/thiago-jv/SIS-PRODUTO
 
 # Requisitos
 Instalar o NVM (Node Version Manager):
