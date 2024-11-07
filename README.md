@@ -38,16 +38,19 @@ Fontawesome https://fontawesome.com/
 Toasty https://www.npmjs.com/package/ng2-toasty
 Node 8 https://nodejs.org/en/download/package-manager
 
-Componentes https://v5.angular.io/guide/component-interaction
-Feature modules https://v5.angular.io/guide/feature-modules
-CoreModule https://dev.to/digitaldino/angular-architecture-core-module-dn4
-Module https://v5.angular.io/guide/feature-modules
-Services https://v5.angular.io/guide/architecture-services
-Http https://v5.angular.io/tutorial/toh-pt6
-Rotas https://v5.angular.io/tutorial/toh-pt5
-Animations https://v5.angular.io/guide/animations
-Template-driven forms https://v5.angular.io/guide/forms
-Primise https://dev.to/kurybr/promise-ou-observable-misterios-do-javascript-4f70
-SPA https://blog.schoolofnet.com/o-que-e-uma-spa-single-page-application/
+Componentes [Sobre](https://v5.angular.io/guide/component-interaction)
+Feature modules [Sobre](https://v5.angular.io/guide/feature-modules)
+CoreModule [Sobre](https://dev.to/digitaldino/angular-architecture-core-module-dn4)
+Module [Sobre](https://v5.angular.io/guide/feature-modules)
+Services [Sobre](https://v5.angular.io/guide/architecture-services)
+Http [Sobre](https://v5.angular.io/tutorial/toh-pt6)
+Rotas [Sobre](https://v5.angular.io/tutorial/toh-pt5)
+Animations [Sobre](https://v5.angular.io/guide/animations)
+Template-driven [Sobre](forms https://v5.angular.io/guide/forms)
+Primise [Sobre](https://dev.to/kurybr/promise-ou-observable-misterios-do-javascript-4f70)
+SPA [Sobre](https://blog.schoolofnet.com/o-que-e-uma-spa-single-page-application/)
 ```
+# APP
+
+![FRONT-END](https://github.com/thiago-jv/SIS-PRODUTO-UI/blob/main/create-update-product.png)
 
